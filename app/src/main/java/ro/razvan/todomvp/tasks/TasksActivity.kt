@@ -1,9 +1,10 @@
-package ro.razvan.todomvp
+package ro.razvan.todomvp.tasks
 
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import ro.razvan.todomvp.R
 
-class MainActivity : AppCompatActivity() {
+class TasksActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
