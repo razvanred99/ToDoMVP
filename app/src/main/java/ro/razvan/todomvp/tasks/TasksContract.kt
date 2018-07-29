@@ -20,6 +20,8 @@ interface TasksContract {
 
         fun showTaskMarkedActive()
 
+        fun showTaskMarkedComplete()
+
         fun showCompletedTasksCleared()
 
         fun showLoadingTasksError()
